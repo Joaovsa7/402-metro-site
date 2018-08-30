@@ -6,27 +6,27 @@
             <h1> Faça a sua denúncia</h1>
 
 
-        <form>
+        <form method="POST" action="/">
           <ul class="flex-outer">
             <li>
               <label for="first-name">Primeiro Nome</label>
-              <input type="text" id="first-name" placeholder="Seu primeiro nome aqui">
+              <input type="text" id="first-name" placeholder="Seu primeiro nome aqui" name="nome">
             </li>
             <li>
               <label for="last-name">Profissão</label>
-              <input type="text" id="last-name" placeholder="Designer">
+              <input type="text" id="last-name" placeholder="Designer" name="profissao">
             </li>
             <li>
               <label for="email">Email</label>
-              <input type="email" id="email" placeholder="joao@gmail.com">
+              <input type="email" id="email" placeholder="joao@gmail.com" name="email">
             </li>
             <li>
               <label for="phone">Celular</label>
-              <input type="tel" id="phone" placeholder="(11)99999-9999">
+              <input type="tel" id="phone" placeholder="(11)99999-9999" name="phone">
             </li>
             <li>
               <label for="message">Messagem</label>
-              <textarea rows="6"  placeholder="Mande sua mensagem aqui"></textarea>
+              <textarea rows="6" id="message"  placeholder="Mande sua mensagem aqui" name="mensagem"></textarea>
             </li>
             <li>
               <p>Idade</p>
