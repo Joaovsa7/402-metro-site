@@ -3,12 +3,16 @@
 <%- include('shared/head') %>
 <body>
     <%- include('shared/header') %>
-    <h1>Gatos</h1>
-    
-    <ul>
-        <li>Siamês</li>
-        <li>Persa</li>
-        <li>Vira Lata</li>
-    </ul>
+    <section class="gatos">
+        <h2>Veja as estações com maior número de denúncias:</h2>
+        
+        <div class="container">
+            <% for(let estacao of estacoes){ %>
+                <div>
+                    <img src="<%= estacao.img %>" alt="">
+                    <h3><%= estacao.nome %></h3>
+                </div>
+            <% } %>
+        </div>
 </body>
 </html>
