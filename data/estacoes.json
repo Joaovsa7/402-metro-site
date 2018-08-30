@@ -1,0 +1,18 @@
+[
+    {
+        "nome": "Estação Sé",
+        "img":"/static/se.jpg"
+    },
+    {
+        "nome": "Estação São Joaquim",
+        "img":"/static/saojoaquim.jpg"
+    },
+    {
+        "nome": "Estação Paraíso",
+        "img":"/static/paraiso.jpg"
+    },
+    {
+        "nome": "Estação Vila Mariana",
+        "img":"/static/vilamariana.jpg"
+    }
+]
