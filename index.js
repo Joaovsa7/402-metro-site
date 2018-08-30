@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
-const estacoes = require('.data/estacoes.json');
+const estacoes = require('./data/estacoes.json');
 
 const app = express();
 app.set('view engine', 'ejs');
