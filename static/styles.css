@@ -1,4 +1,4 @@
-*{
+*, body{
     margin: 0;
     padding: 0;
     font-family: 'Fira';
@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #222;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     z-index: 1;
     position: fixed;
@@ -26,6 +26,8 @@
     background-size: cover;
     position: static;
     z-index: -1000;
+    margin: 0;
+    padding: 0;
     
     }
     
@@ -33,6 +35,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
  .menu >  a{
@@ -87,10 +91,7 @@ height: auto;
     margin-left: 20px;
 }
 
-.container {
-    
-    width: 90vw;
-}
+
 
 
 
@@ -114,14 +115,6 @@ input:focus {
 
 }
 
-.section-1 { 
-
-
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: flex-end;
-}
 
 .texto-1 > h1 {
 
@@ -149,14 +142,38 @@ font-family: 'roboto';
 font-weight: 200;
 color: #555;
 margin: 50px;
+
 }
+
+
+.section-1 { 
+
+margin: 0;
+padding: 0;
+width: 100vw;
+ height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-1 {
+    width: 50%;
+
+}
+
+.img-container{ 
+
+
+        height: 100vh;
+        width: 50vw;
+        background: url(./img/brandon-mowinkel-740740-unsplash.jpg);
+     background-size: cover;
+         margin: 0;
+         padding: 0;
+}
+
+
 .section-1 > h1::before {
     border-bottom: 4px solid white;
-}
-.img-container > img { 
-    height: 100vh;
-    width: 50vw;
-    justify-content: flex-end;
-    background-size: cover;
 }
 
