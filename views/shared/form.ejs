@@ -6,11 +6,11 @@
             <h1> Faça a sua denúncia</h1>
 
 
-        <form method="POST" action="/">
+        <form method="POST" action="/comentarios">
           <ul class="flex-outer">
             <li>
-              <label for="first-name">Primeiro Nome</label>
-              <input type="text" id="first-name" placeholder="Seu primeiro nome aqui" name="nome">
+              <label for="first-name">Titulo</label>
+              <input type="text" id="first-name" placeholder="Seu primeiro nome aqui" name="titulo">
             </li>
             <li>
               <label for="last-name">Profissão</label>
@@ -29,26 +29,7 @@
               <textarea rows="6" id="message"  placeholder="Mande sua mensagem aqui" name="mensagem"></textarea>
             </li>
             <li>
-              <p>Idade</p>
-              <ul class="flex-inner">
-                <li>
-                  <input type="checkbox">
-                  <label>20-29</label>
-                </li>
-                <li>
-                  <input type="checkbox">
-                  <label>30-39</label>
-                </li>
-                <li>
-                  <input type="checkbox">
-                  <label>40+</label>
-                  </li>
-                <li>
-                  <input type="checkbox">
-                  <label>60+</label>
-                </li>
-              </ul>
-            </li>
+        
             <li>
               <button type="submit">Cadastrar</button>
             </li>
